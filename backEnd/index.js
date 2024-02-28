@@ -4,7 +4,8 @@ const app = express()
 const mongoose = require('mongoose');
 const todoSchema = require("./model/todoSchema");
 const secureApi = require('./middleware/secureApi');
-const routes=require("./routes")
+
+//const routes=require("./routes")
 
 // app.use(routes)
 
